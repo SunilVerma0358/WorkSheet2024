@@ -97,14 +97,14 @@ const MyWorks = () => {
                         <a
                           href={Props.GitHub}
                           target="blank"
-                          className="text-white font-medium fs-18 ff_Poppins"
+                          className=" font-medium fs-18 ff_Poppins textOne"
                         >
                           {Props.GitHubW}
                         </a>
                         <a
                           href={Props.LiveLink}
                           target="blank"
-                          className="text-white font-medium fs-18  ff_Poppins py-3"
+                          className=" font-medium fs-18   textOne ff_Poppins py-3"
                         >
                           {Props.LiveLinkW}
                         </a>
@@ -139,14 +139,14 @@ const MyWorks = () => {
                         <a
                           href={Props.GitHub}
                           target="blank"
-                          className=" ff_Poppins text-white font-medium fs-18"
+                          className=" ff_Poppins font-medium fs-18 textOne"
                         >
                           {Props.GitHubW}
                         </a>
                         <a
                           href={Props.LiveLink}
                           target="blank"
-                          className=" ff_Poppins text-white font-medium fs-18  py-3"
+                          className=" ff_Poppins font-medium fs-18  textOne py-3"
                         >
                           {Props.LiveLinkW}
                         </a>
@@ -181,14 +181,14 @@ const MyWorks = () => {
                         <a
                           href={Props.GitHub}
                           target="blank"
-                          className="text-white font-medium fs-18 ff_Poppins"
+                          className=" font-medium fs-18 ff_Poppins textOne"
                         >
                           {Props.GitHubW}
                         </a>
                         <a
                           href={Props.LiveLink}
                           target="blank"
-                          className="text-white font-medium fs-18 ff_Poppins  py-3"
+                          className=" font-medium fs-18 ff_Poppins  textOne py-3"
                         >
                           {Props.LiveLinkW}
                         </a>

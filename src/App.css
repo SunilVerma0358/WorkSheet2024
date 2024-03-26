@@ -196,3 +196,12 @@
 .min-h-600 {
     height: 560px;
 }
+
+.textOne {
+    color: white;
+    transition: all linear 300ms;
+}
+
+.textOne:hover {
+    color: blue;
+}
