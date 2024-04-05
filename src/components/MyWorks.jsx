@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-
-import { Feb, March, Month } from "./common/Helper";
+import { April, Feb, March, Month } from "./common/Helper";
 import { Profile } from "./common/SvgExport";
 const MyWorks = () => {
   const [first, setfirst] = useState("Tab1");
@@ -74,16 +73,16 @@ const MyWorks = () => {
           <div className="col-8 bg-gray py-5 min-h-600 overflow-scrollbar">
             {first === "Tab1" && (
               <div>
-                <p className="text-white ff_Poppins fs-24 font-bold">
+                <p className="text-white ff_Poppins fs-24 font-bold ">
                   January Topics :-
                 </p>
                 {Month.map((Props, index) => (
-                  <div key={index} className="row py-3 items-center  ">
+                  <div key={index} className="row py-3 items-center">
                     <div className="col-4">
                       <div className="flex items-center">
                         <p className="line ff_Poppins">{Props.number}</p>
                         <img
-                          className="max_w_250 rounded-xl"
+                          className="max_w_250 w-100 rounded-xl"
                           src={Props.imagePage}
                           alt="img"
                         />
@@ -203,10 +202,41 @@ const MyWorks = () => {
                 <p className="text-white ff_Poppins fs-24 font-bold">
                   April Topics :-
                 </p>
-                <p className="text-white ff_Poppins fs-18 font-bold">
-                  {" "}
-                  Coming Soon
-                </p>
+                {April.map((Props, index) => (
+                  <div key={index} className="row py-3 items-center">
+                    <div className="col-4">
+                      <div className="flex items-center">
+                        <p className="line ff_Poppins">{Props.number}</p>
+                        <img
+                          className="max_w_250 w-100 rounded-xl"
+                          src={Props.imagePage}
+                          alt="img"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-8">
+                      <p className=" py-3 text-white ff_Poppins font-semibold fs-20">
+                        {Props.Tittle} :-
+                      </p>
+                      <div className="flex flex-col">
+                        <a
+                          href={Props.GitHub}
+                          target="blank"
+                          className=" font-medium fs-18 ff_Poppins textOne"
+                        >
+                          {Props.GitHubW}
+                        </a>
+                        <a
+                          href={Props.LiveLink}
+                          target="blank"
+                          className=" font-medium fs-18   textOne ff_Poppins py-3"
+                        >
+                          {Props.LiveLinkW}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
             )}
             <div />
