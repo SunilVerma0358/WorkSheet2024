@@ -23,6 +23,10 @@
     display: flex;
 }
 
+.block {
+    display: block;
+}
+
 .items-center {
     align-items: center;
 }
@@ -199,6 +203,10 @@
 
 .min-h-600 {
     height: 560px;
+}
+
+.text_black {
+    color: black;
 }
 
 .textOne {

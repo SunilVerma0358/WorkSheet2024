@@ -7,7 +7,7 @@ const MyWorks = () => {
     setfirst(Tab);
   }
   return (
-    <div className="bg-black vh-100">
+    <div className="bg-black   vh-100">
       <div className="container py-5 ">
         <div className="flex items-center justify-between">
           {" "}
@@ -222,16 +222,18 @@ const MyWorks = () => {
                         <a
                           href={Props.GitHub}
                           target="blank"
-                          className=" font-medium fs-18 ff_Poppins textOne"
+                          className=" font-medium fs-18 ff_Poppins text_black "
                         >
-                          {Props.GitHubW}
+                          <p className="block">Git Hub link :-</p>
+                          <p className="textOne"> {Props.GitHubW}</p>
                         </a>
                         <a
                           href={Props.LiveLink}
                           target="blank"
-                          className=" font-medium fs-18   textOne ff_Poppins py-3"
+                          className=" font-medium fs-18 text_black  ff_Poppins py-3"
                         >
-                          {Props.LiveLinkW}
+                          <p className="block">Live link :-</p>
+                          <p className="textOne">{Props.LiveLinkW}</p>
                         </a>
                       </div>
                     </div>
