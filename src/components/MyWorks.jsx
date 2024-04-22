@@ -7,7 +7,7 @@ const MyWorks = () => {
     setfirst(Tab);
   }
   return (
-    <div className="bg-black ">
+    <div className="bg-black py-5 ">
       <div className="container py-5 ">
         <div className="flex items-center justify-between">
           {" "}
