@@ -177,7 +177,7 @@ export const April = [
     Tittle: "Marc Joachim Hubrich",
     number: "3",
     imagePage: Marc,
-    GitHub: "https://github.com/SunilVerma0358/Form_Validation.git",
+    GitHub: "https://github.com/SunilVerma0358/Marc_Joachim.git",
     GitHubW: "https://github.com/SunilVerma0358/Marc_Joachim.git",
     LiveLink: "https://marc-joachim.vercel.app/",
     LiveLinkW: "https://marc-joachim.vercel.app/",
